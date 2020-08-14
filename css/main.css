@@ -1,3 +1,4 @@
+/*Header*/
 .header > .container,
 .navigation,
 .navigation-list {
@@ -116,6 +117,7 @@
   height: 11px;
 }
 
+/*Hero Section*/
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/main-page/hero/hero-img.jpg);
   background-repeat: no-repeat;
@@ -282,6 +284,7 @@
   background-color: rgba(47, 48, 58, 0.5);
 }
 
+/*Team*/
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -362,6 +365,7 @@
   height: 20px;
 }
 
+/*Clients*/
 .ourclients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -439,6 +443,7 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/*Footer*/
 .footer {
   background-color: var(--background-footer-color);
 }
