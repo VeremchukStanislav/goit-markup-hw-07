@@ -333,7 +333,11 @@ p {
   position: relative;
 }
 
-.navigation-list-link.current {
+.navigation-list-link .current {
+  color: #2196f3;
+}
+
+.navigation-list-link:hover, .navigation-list-link:focus {
   color: #2196f3;
 }
 
@@ -354,18 +358,8 @@ p {
   color: #757575;
 }
 
-.navigation-list-link:hover,
-.navigation-list-link:focus,
-.navigation-contacts-list-link:hover,
-.navigation-contacts-list-link:focus {
+.navigation-contacts-list-link:hover, .navigation-contacts-list-link:focus {
   color: #2196f3;
-}
-
-.icon-phone:hover,
-.icon-phone:focus,
-.icon-mail:hover,
-.icon-mail:focus {
-  fill: #2196f3;
 }
 
 .icon-phone {
@@ -375,11 +369,19 @@ p {
   height: 15px;
 }
 
+.icon-phone:hover, .icon-phone:focus {
+  fill: #2196f3;
+}
+
 .icon-mail {
   fill: currentColor;
   margin-right: 10px;
   width: 16px;
   height: 11px;
+}
+
+.icon-mail:hover, .icon-mail:focus {
+  fill: #2196f3;
 }
 
 /*Hero Section*/

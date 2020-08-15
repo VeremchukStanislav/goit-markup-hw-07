@@ -51,9 +51,14 @@
 .navigation-list-link {
   color: $secondary-color-text;
   position: relative;
-}
-.navigation-list-link.current {
-  color: $accent-color;
+
+  .current {
+    color: $accent-color;
+  }
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 .current::after {
   position: absolute;
@@ -69,29 +74,31 @@
   display: flex;
   align-items: center;
   color: $main-color-text;
-}
-.navigation-list-link:hover,
-.navigation-list-link:focus,
-.navigation-contacts-list-link:hover,
-.navigation-contacts-list-link:focus {
-  color: $accent-color;
-}
 
-.icon-phone:hover,
-.icon-phone:focus,
-.icon-mail:hover,
-.icon-mail:focus {
-  fill: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 .icon-phone {
   fill: currentColor;
   margin-right: 10px;
   width: 10px;
   height: 15px;
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
 }
 .icon-mail {
   fill: currentColor;
   margin-right: 10px;
   width: 16px;
   height: 11px;
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
 }
