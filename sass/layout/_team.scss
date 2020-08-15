@@ -58,12 +58,13 @@
   color: $color-icons;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color, color, box-shadow;
-}
-.team-list-social-item-link:hover,
-.team-list-social-item-link:focus {
-  background-color: $accent-color;
-  border-radius: 50%;
-  color: #ffffff;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    border-radius: 50%;
+    color: $background-color;
+  }
 }
 
 .social-svg-item {

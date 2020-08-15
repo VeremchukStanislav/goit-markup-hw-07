@@ -23,12 +23,13 @@
   height: 90px;
   color: $color-icons;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients-list-item-link:hover,
-.clients-list-item-link:focus {
-  background-color: $third-color-text;
-  color: $accent-color;
-  border-color: $accent-color;
+
+  &:hover,
+  &:focus {
+    background-color: $third-color-text;
+    color: $accent-color;
+    border-color: $accent-color;
+  }
 }
 .clients-svg-item1 {
   fill: currentColor;
