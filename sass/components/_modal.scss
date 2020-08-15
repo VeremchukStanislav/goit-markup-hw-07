@@ -19,7 +19,7 @@
   height: 581px;
   display: flex;
   flex-direction: column;
-  background-color: var(--background-color);
+  background-color: $background-color;
   align-items: center;
 }
 .modal-label-textarea {
@@ -40,14 +40,14 @@
   position: absolute;
   top: 12px;
   left: 16px;
-  color: var(--main-color-text); /*
+  color: $main-color-text; /*
   transform: translateY(0%, -50%);*/
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-label-textarea:focus-within > .modal-span-text,
 .modal-form-text:not(:placeholder-shown) + .modal-span-text {
   transform: translate(-10px, -35px);
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .modal-wrapper {
   position: relative;
@@ -56,7 +56,7 @@
 .modal-label {
   position: absolute;
   left: 42px;
-  color: var(--main-color-text);
+  color: $main-color-text;
   top: 50%;
   transform: translate(0%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -81,13 +81,13 @@
 .modal-form-title,
 .modal-form-text {
   display: block;
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 0.01em;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  color: var(--main-color-text);
+  color: $main-color-text;
 }
 .modal-form-name {
   font-size: 20px;
@@ -99,8 +99,8 @@
 .modal-form-title:not(:placeholder-shown) + .modal-label,
 .modal-form-title:focus ~ .icon-form-span {
   transform: translate(-25px, -40px);
-  color: var(--accent-color);
-  fill: var(--accent-color);
+  color: $accent-color;
+  fill: $accent-color;
 }
 .modal-form-title ~ .icon-form-span {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -108,17 +108,17 @@
 .modal-form-title:focus,
 .modal-form-text:focus {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 .modal-form-span {
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: var(--main-color-text);
+  color: $main-color-text;
   margin-left: 7px;
 }
 .modal-form-span a {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .modal-form-label {
   display: flex;
@@ -147,7 +147,7 @@
   overflow: hidden;
 }
 .modal-form-check:checked ~ .modal-form-my-check {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border: transparent;
 }
 .modal-close-btn {
@@ -166,7 +166,7 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn:hover {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .icon-close {
   margin: auto;
@@ -185,9 +185,9 @@
   border-radius: 4px;
   border: transparent;
   cursor: pointer;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   font-size: 16px;
   letter-spacing: 0.06em;
   font-weight: 700;
-  color: var(--third-color-text);
+  color: $third-color-text;
 }

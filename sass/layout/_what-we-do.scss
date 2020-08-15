@@ -24,7 +24,7 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-color-text);
+  color: $secondary-color-text;
 }
 .what-we-do-description {
   bottom: 0;
@@ -40,6 +40,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--third-color-text);
+  color: $third-color-text;
   background-color: rgba(47, 48, 58, 0.5);
 }

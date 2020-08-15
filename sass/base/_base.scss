@@ -1,11 +1,11 @@
 /*index.html*/
 
 body {
-  background-color: var(--background-color);
+  background-color: $background-color;
   font-style: normal;
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-size: 14px;
-  color: var(--secondary-color-text);
+  color: $secondary-color-text;
 }
 html {
   box-sizing: border-box;
