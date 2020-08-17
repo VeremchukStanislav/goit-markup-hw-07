@@ -16,9 +16,10 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-.btn-list-item:not(:last-child) {
-  margin-right: 8px;
+
+  &-item:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 .btn-list-item-button {
   padding-top: 6px;

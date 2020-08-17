@@ -3,12 +3,12 @@
 .about-us {
   padding-top: 94px;
 }
-
 .about-us-list {
   display: flex;
-}
-.about-us-list-item:not(:last-child) {
-  margin-right: 30px;
+
+  &-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .about-us-list-item-img {
   display: block;
